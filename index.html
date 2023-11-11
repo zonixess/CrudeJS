@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid bg-primary p-2">
+        <div class="row ">
+            <div class="col-xl-2">
+                Input ID: 
+                <input type="text" id="txt-id" class="form-control" readonly>
+            </div>
+            <div class="col-xl-2">
+                Input Name: 
+                <input type="text" id="txt-name" class="form-control">
+            </div>
+            <div class="col-xl-2">
+                Input QTY: 
+                <input type="text" id="txt-qty"class="form-control">
+            </div>
+            <div class="col-xl-2">
+                Input Price: 
+                <input type="text" id="txt-price" class="form-control">
+            </div>
+            <div class="col-xl-2">
+                Total: 
+                <input type="text" id="txt-total" class="form-control" readonly>
+            </div>
+            <div class="col-xl-2 mt-4">
+                <input type="button" id="btnAdd" value="Add" class="btn btn-danger">
+                <input type="button" id="btnUpdate" value="Update" class="btn btn-info">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-xl-12 col-lg-12">
+                <h1 class="text-light text-center mb-3 text-decoration-underline">Information Product</h1>
+                <table class="table bg-info" id="btnTable" style="table-layout: fixed;">
+                    <!-- <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>QTY</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> -->
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/Crude/index.js"></script>
+</html>
